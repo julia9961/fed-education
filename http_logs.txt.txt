@@ -1,0 +1,160 @@
+a) Request
+POST https://api.github.com/repos/julia9961/fed-education/issues
+Headers 
+{
+	"Authorization":"token 32bb124185c30d977ab41774181ed563ff566451",
+	"Content-Type": "application/json"
+}
+
+json 
+{
+	
+	"title": "New issue",
+	
+	"body": "some comment from Yulyasha"
+
+}
+
+Response
+Body 
+{
+  "url": "https://api.github.com/repos/julia9961/fed-education/issues/4",
+  "repository_url": "https://api.github.com/repos/julia9961/fed-education",
+  "labels_url": "https://api.github.com/repos/julia9961/fed-education/issues/4/labels{/name}",
+  "comments_url": "https://api.github.com/repos/julia9961/fed-education/issues/4/comments",
+  "events_url": "https://api.github.com/repos/julia9961/fed-education/issues/4/events",
+  "html_url": "https://github.com/julia9961/fed-education/issues/4",
+  "id": 219229111,
+  "number": 4,
+  "title": "New issue",
+  "user": {
+    "login": "julia9961",
+    "id": 14967544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/14967544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/julia9961",
+    "html_url": "https://github.com/julia9961",
+    "followers_url": "https://api.github.com/users/julia9961/followers",
+    "following_url": "https://api.github.com/users/julia9961/following{/other_user}",
+    "gists_url": "https://api.github.com/users/julia9961/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/julia9961/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/julia9961/subscriptions",
+    "organizations_url": "https://api.github.com/users/julia9961/orgs",
+    "repos_url": "https://api.github.com/users/julia9961/repos",
+    "events_url": "https://api.github.com/users/julia9961/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/julia9961/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 0,
+  "created_at": "2017-04-04T12:08:50Z",
+  "updated_at": "2017-04-04T12:08:50Z",
+  "closed_at": null,
+  "body": "some comment from Yulyasha",
+  "closed_by": null
+}
+
+Headers
+>
+Access-Control-Allow-Origin >*
+Access-Control-Expose-Headers >ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control >private, max-age=60, s-maxage=60
+Content-Length >1657
+Content-Security-Policy >default-src 'none'
+Content-Type >application/json; charset=utf-8
+Date >Tue, 04 Apr 2017 11:36:35 GMT
+ETag >"7a2a2e80c4e16919479d4230425c969a"
+Location >https://api.github.com/repos/julia9961/fed-education/issues/2
+Server >GitHub.com
+Status >201 Created
+Strict-Transport-Security >max-age=31536000; includeSubdomains; preload
+X-Accepted-OAuth-Scopes >
+X-Content-Type-Options >nosniff
+X-Frame-Options >deny
+X-GitHub-Media-Type >github.v3; format=json
+X-GitHub-Request-Id >DE97:230F:F28A1B:136592C:58E38543
+X-OAuth-Scopes >admin:org, repo
+X-RateLimit-Limit >5000
+X-RateLimit-Remaining >4984
+X-RateLimit-Reset >1491307935
+X-Served-By >52437fedc85beec8da3449496900fb9a
+X-XSS-Protection >1; mode=block
+
+
+b) Request
+POST https://api.github.com/repos/julia9961/fed-education/issues/2/comments
+Headers 
+{
+	"Authorization":"token 32bb124185c30d977ab41774181ed563ff566451",
+	"Content-Type": "application/json"
+}
+
+json 
+{
+	
+	"body": "new comment 2 from Yulyasha"
+
+}
+
+Response
+Body 
+{
+  "url": "https://api.github.com/repos/julia9961/fed-education/issues/comments/291479495",
+  "html_url": "https://github.com/julia9961/fed-education/issues/2#issuecomment-291479495",
+  "issue_url": "https://api.github.com/repos/julia9961/fed-education/issues/2",
+  "id": 291479495,
+  "user": {
+    "login": "julia9961",
+    "id": 14967544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/14967544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/julia9961",
+    "html_url": "https://github.com/julia9961",
+    "followers_url": "https://api.github.com/users/julia9961/followers",
+    "following_url": "https://api.github.com/users/julia9961/following{/other_user}",
+    "gists_url": "https://api.github.com/users/julia9961/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/julia9961/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/julia9961/subscriptions",
+    "organizations_url": "https://api.github.com/users/julia9961/orgs",
+    "repos_url": "https://api.github.com/users/julia9961/repos",
+    "events_url": "https://api.github.com/users/julia9961/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/julia9961/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2017-04-04T12:04:42Z",
+  "updated_at": "2017-04-04T12:04:42Z",
+  "body": "new comment 2 from Yulyasha"
+}
+
+Headers 
+>
+Access-Control-Allow-Origin >*
+Access-Control-Expose-Headers >ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Cache-Control >private, max-age=60, s-maxage=60
+Content-Length >1271
+Content-Security-Policy >default-src 'none'
+Content-Type >application/json; charset=utf-8
+Date >Tue, 04 Apr 2017 12:04:42 GMT
+ETag >"2fc3ec2e8215d4b32863d1ab960ddc8e"
+Location >https://api.github.com/repos/julia9961/fed-education/issues/comments/291479495
+Server >GitHub.com
+Status >201 Created
+Strict-Transport-Security >max-age=31536000; includeSubdomains; preload
+X-Accepted-OAuth-Scopes >public_repo, repo
+X-Content-Type-Options >nosniff
+X-Frame-Options >deny
+X-GitHub-Media-Type >github.v3; format=json
+X-GitHub-Request-Id >EB59:230C:3F62BAE:5120BE2:58E38BDA
+X-OAuth-Scopes >admin:org, repo
+X-RateLimit-Limit >5000
+X-RateLimit-Remaining >4977
+X-RateLimit-Reset >1491307935
+X-Served-By >e14705a23c085afeff5e104b1fc3922a
+X-XSS-Protection >1; mode=block
